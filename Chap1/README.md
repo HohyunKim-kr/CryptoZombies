@@ -50,5 +50,15 @@ uint[] dynamicArray;
 
 구조체 배열
 ```solidity
-Person[]
+Person[] people; // 동적 배열로, 원소를 계속 추가 가능.
+```
+
+구조체의 동적 배열을 생성하면 데이터 베이스처럼 컨트랙트에 구조화된 데이터 저장하는 데 유용하다.
+
+public 배열
+
+public 배열을 선언. 솔리디티는 이런 배열을 위해 getter 메소드를 자동적으로 생성.
+
+```solidity
+Person[] public people;
 ```
